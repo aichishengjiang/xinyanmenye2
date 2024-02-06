@@ -1,4 +1,3 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+// src/main.js
+const a = 10089;
+console.log("a", a)
