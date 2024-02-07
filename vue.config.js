@@ -12,7 +12,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './src/main.js', // 入口
   output: {
-    filename: 'bundle.js', // 输出文件名
+    filename: '[hash].bundle.js', // 输出文件名
     path: resolve(__dirname, './dist'), // _dirname node.js变量，代表当前目录的绝对路径
   },
   plugins: [
